@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>Powerloop</title>
+        
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+        <link rel="stylesheet" href="{% static 'css/landing.css' %}">
+        
+
+    </head>
+    <body>
+        <div class="landing-page-content-main">
+            <h1>POWERLOOP</h1>
+        </div>
+        <div class="bg-image">
+            <img class="bg-img" src="{% static 'media/home_background.jpg' %}">
+        </div>
+            
+
+
+    </body>
+    {% block script %}{% endblock %}
+    <script src="{% static 'scripts/js/landing.js' %}"></script>
+
+</html>

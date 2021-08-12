@@ -3,3 +3,8 @@ env
 *.JPG
 *.jpeg
 *.png
+*.sqlite3
+*.sqlite
+db.sqlite3
+db.sqlite
+__pycache__
